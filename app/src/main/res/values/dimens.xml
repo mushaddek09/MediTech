@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="xxxxxxs">1dp</dimen>
+    <dimen name="xxxxxs">2dp</dimen>
+    <dimen name="xxxxs">4dp</dimen>
+    <dimen name="xxxs">6dp</dimen>
+    <dimen name="xxs">8dp</dimen>
+    <dimen name="xs">10dp</dimen>
+    <dimen name="s">12dp</dimen>
+    <dimen name="m">16dp</dimen>
+    <dimen name="xm">18dp</dimen>
+    <dimen name="xxm">20dp</dimen>
+    <dimen name="l">24dp</dimen>
+    <dimen name="xl">28dp</dimen>
+    <dimen name="xxl">32dp</dimen>
+    <dimen name="xxxl">36dp</dimen>
+    <dimen name="xxxxl">40dp</dimen>
+    <dimen name="xxxxxl">48dp</dimen>
+    <dimen name="xxxxxxl">64dp</dimen>
+</resources>
