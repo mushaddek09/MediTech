@@ -16,4 +16,39 @@
         <item name="android:fontFamily">@font/font_regular</item>
         <item name="android:textColor">@color/black</item>
     </style>
+
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+
+    <string name="first_slide_title">View and buy Medicine online</string>
+
+    <string name="second_slide_title"> Online medical and Healthcare  </string>
+
+    <string name="third_slide_title"> Get Delivery on time </string>
+
+
+
+    <!--Descriptions-->
+
+    <string name="first_slide_desc">Etiam mollis metus non purus faucibus sollicitudin. Pellentesque sagittis mi. Integer.</string>
+
+    <string name="second_slide_desc">Etiam mollis metus non purus faucibus sollicitudin. Pellentesque sagittis mi. Integer.</string>
+
+    <string name="third_slide_desc">Etiam mollis metus non purus faucibus sollicitudin. Pellentesque sagittis mi. Integer.</string>
+
+
+
+
+    <!--Buttons-->
+
+    <string name="skip_btn">Skip</string>
+
+    <string name="next_btn">Next</string>
+
+    <string name="let_get_started">Lets Get Started</string>
+
+
 </resources>
