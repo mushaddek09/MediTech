@@ -8,7 +8,6 @@
 
 
 
-
     <RelativeLayout
         android:id="@+id/signup_relative_layout"
         android:layout_width="match_parent"
@@ -49,7 +48,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/edt_back"
         android:ems="10"
-        android:hint="email"
+        android:hint="username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="10dp"
@@ -61,20 +60,32 @@
         app:layout_constraintVertical_bias="0.22000003" />
 
     <EditText
-        android:id="@+id/editTextTextPersonPassword"
+        android:id="@+id/editTextTextPersonName3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:background="@drawable/edt_back"
         android:ems="10"
-        android:hint="pasword"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
         android:padding="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/signup_relative_layout"
+        android:hint="email"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.13999999" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edt_back"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:hint="password"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
