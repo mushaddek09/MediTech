@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+
+    <!--Also available: @drawable:launcher_screen_with_background-->
+
+  <item android:drawable="@drawable/splash_bg" >
+
+
+
+  </item>
+
+    <item>
+
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/medi" />
+    </item>
+
+
+</layer-list>
