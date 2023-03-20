@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/signup_username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.22000003" />
 
     <EditText
-        android:id="@+id/editTextTextPersonPassword"
+        android:id="@+id/signup_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/edt_back"
@@ -70,24 +70,25 @@
         android:minHeight="48dp"
         android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/signup_relative_layout"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/signup_username"
+        app:layout_constraintStart_toStartOf="@+id/signup_username"
+        app:layout_constraintTop_toBottomOf="@+id/signup_username"
         app:layout_constraintVertical_bias="0.110000014" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/signup_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/edt_back"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:padding="10dp"
         android:hint="pasword"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/signup_relative_layout"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonPassword"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonPassword"
+        app:layout_constraintEnd_toEndOf="@+id/signup_email"
+        app:layout_constraintStart_toStartOf="@+id/signup_email"
+        app:layout_constraintTop_toBottomOf="@+id/signup_email"
         app:layout_constraintVertical_bias="0.13999999" />
 
 
