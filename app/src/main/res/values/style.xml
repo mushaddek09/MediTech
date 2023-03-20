@@ -51,4 +51,23 @@
     <string name="let_get_started">Lets Get Started</string>
 
 
+
+    <style name="AppTheme.Launcher" parent="Theme.MaterialComponents.Light.NoActionBar"
+
+        >
+
+
+        <item name="android:windowBackground"  > @drawable/launcher_screen_with_logo  </item>
+        <item name="android:windowNoTitle"  > true </item>
+        <item name="android:windowActionBar"  > false </item>
+        <item name="android:windowFullscreen"  > true </item>
+        <item name="android:windowContentOverlay"  > @null</item>
+
+
+    </style>
+
+
+
+
+
 </resources>
