@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#4157FF"
-            android:text="Sign In"
+            android:text="Sign Up"
             android:textColor="@color/white"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textColor="@color/black"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -48,7 +48,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/edt_back"
         android:ems="10"
-        android:hint="email"
+        android:hint="username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="10dp"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edt_back"
         android:ems="10"
-        android:hint="pasword"
+        android:hint="email"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="10dp"
@@ -73,9 +73,22 @@
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_back"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:hint="pasword"
+        app:layout_constraintBottom_toTopOf="@+id/signup_relative_layout"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonPassword"
         app:layout_constraintVertical_bias="0.13999999" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
